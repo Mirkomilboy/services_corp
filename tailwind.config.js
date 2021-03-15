@@ -17,14 +17,11 @@ module.exports = {
         shippori: ['Shippori Minch']
       },
       backgroundSize: {
-        'auto': 'auto',
-        'cover': 'cover',
-        'contain': 'contain',
-        '90%': '90%',
-        '16': '4rem',
+        '100': '100%',
       },
       backgroundImage: theme => ({
         'footer': "url('/public/img/bg-footer.png')",
+        'banner': "url('/public/img/banner-bg.png')",
       })
     },
   },
