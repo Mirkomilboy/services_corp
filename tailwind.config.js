@@ -22,7 +22,10 @@ module.exports = {
         'contain': 'contain',
         '90%': '90%',
         '16': '4rem',
-      }
+      },
+      backgroundImage: theme => ({
+        'footer': "url('/public/img/bg-footer.png')",
+      })
     },
   },
   variants: {
