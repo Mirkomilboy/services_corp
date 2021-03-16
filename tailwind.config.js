@@ -22,7 +22,10 @@ module.exports = {
       backgroundImage: theme => ({
         'footer': "url('/public/img/bg-footer.png')",
         'banner': "url('/public/img/banner-bg.png')",
-      })
+      }),
+      gridTemplateRows: {
+        '1-11px-1': '1fr 11px 1fr',
+      }
     },
   },
   variants: {
