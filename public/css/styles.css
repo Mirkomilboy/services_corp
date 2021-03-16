@@ -7883,10 +7883,6 @@ video {
   background-repeat: space;
 }
 
-.bg-16 {
-  background-size: 4rem;
-}
-
 .bg-100 {
   background-size: 100%;
 }
@@ -27948,6 +27944,10 @@ video {
   grid-template-rows: none;
 }
 
+.grid-rows-1-11px-1 {
+  grid-template-rows: 1fr 11px 1fr;
+}
+
 .auto-rows-auto {
   grid-auto-rows: auto;
 }
@@ -31207,6 +31207,12 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.text-gradient {
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media (min-width: 640px) {
@@ -38540,10 +38546,6 @@ video {
 
   .sm\:bg-repeat-space {
     background-repeat: space;
-  }
-
-  .sm\:bg-16 {
-    background-size: 4rem;
   }
 
   .sm\:bg-100 {
@@ -58594,6 +58596,10 @@ video {
     grid-template-rows: none;
   }
 
+  .sm\:grid-rows-1-11px-1 {
+    grid-template-rows: 1fr 11px 1fr;
+  }
+
   .sm\:auto-rows-auto {
     grid-auto-rows: auto;
   }
@@ -69121,10 +69127,6 @@ video {
 
   .md\:bg-repeat-space {
     background-repeat: space;
-  }
-
-  .md\:bg-16 {
-    background-size: 4rem;
   }
 
   .md\:bg-100 {
@@ -89175,6 +89177,10 @@ video {
     grid-template-rows: none;
   }
 
+  .md\:grid-rows-1-11px-1 {
+    grid-template-rows: 1fr 11px 1fr;
+  }
+
   .md\:auto-rows-auto {
     grid-auto-rows: auto;
   }
@@ -99702,10 +99708,6 @@ video {
 
   .lg\:bg-repeat-space {
     background-repeat: space;
-  }
-
-  .lg\:bg-16 {
-    background-size: 4rem;
   }
 
   .lg\:bg-100 {
@@ -119756,6 +119758,10 @@ video {
     grid-template-rows: none;
   }
 
+  .lg\:grid-rows-1-11px-1 {
+    grid-template-rows: 1fr 11px 1fr;
+  }
+
   .lg\:auto-rows-auto {
     grid-auto-rows: auto;
   }
@@ -130283,10 +130289,6 @@ video {
 
   .xl\:bg-repeat-space {
     background-repeat: space;
-  }
-
-  .xl\:bg-16 {
-    background-size: 4rem;
   }
 
   .xl\:bg-100 {
@@ -150337,6 +150339,10 @@ video {
     grid-template-rows: none;
   }
 
+  .xl\:grid-rows-1-11px-1 {
+    grid-template-rows: 1fr 11px 1fr;
+  }
+
   .xl\:auto-rows-auto {
     grid-auto-rows: auto;
   }
@@ -160864,10 +160870,6 @@ video {
 
   .\32xl\:bg-repeat-space {
     background-repeat: space;
-  }
-
-  .\32xl\:bg-16 {
-    background-size: 4rem;
   }
 
   .\32xl\:bg-100 {
@@ -180916,6 +180918,10 @@ video {
 
   .\32xl\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .\32xl\:grid-rows-1-11px-1 {
+    grid-template-rows: 1fr 11px 1fr;
   }
 
   .\32xl\:auto-rows-auto {
